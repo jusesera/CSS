@@ -1,0 +1,90 @@
+#imgp{
+    width: 400px; 
+}
+body{
+    text-align: justify;
+    background-color: #F0E9D2;
+}
+p{
+    font-family: 'Mukta', sans-serif;
+    color: hwb(0 0% 100%);
+}
+ul{
+    font-family: 'Mukta', sans-serif;
+    color: rgb(0, 0, 0);
+}
+table{
+    font-family: 'Mukta', sans-serif;
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-family: 'Alkatra', cursive;
+}
+h1{
+    font-family: 'Varela Round', sans-serif;
+}
+.ovalo{
+    border-radius: 30vh;
+    background-color: rgba(0, 81, 255, 0.894);
+    width: 30vh;
+    color: aliceblue;
+    text-align: center;
+}
+.color{
+    color: rgba(255, 3, 3, 0.834);
+}
+.color1{
+    color: rgba(0, 81, 255, 0.894);
+}
+img{
+    width: 20px;
+}
+ul{
+    list-style: none;
+}
+.grid{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    gap: 20px;
+    
+}
+.grid .grid-left{
+    display: grid;
+    grid-column-start: 1;
+}
+.grid .grid-right{
+    display: grid;
+    grid-column-start: 2;
+}
+#Contacto{
+    text-align: justify;
+    position: absolute;
+        top: 320px;
+}
+#habilidades{
+    text-align: justify;
+    position: absolute;
+    top: 550px;
+}
+#intereses{
+    text-align: justify;
+    position: absolute;
+    top: 720px;
+}
+h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    position: absolute;
+        top: 920px;
+}
+@media screen and(max-width: 768px){
+    .grid .grid-left{
+        grid-column: 1/-1 ;
+    }
+}
